@@ -1,10 +1,11 @@
 package = "ltdiff"
 version = "1.0-1"
 source = {
-	url = "http://bitbucket.org/MartinFelis/luatablediff/get/default.tar.gz"
+	url = "git://github.com:martinfelis/luatablediff",
+	tag = "v1.0",
 }
 description = {
-	summary = "Diffs and patching for Lua tables",
+	summary = "Diffing and patching for Lua tables",
 	detailed = [[
 LuaTableDiff is a Lua snippet that allows to create diffs recursively
 between two Lua tables. This diff can then again be applied to the
