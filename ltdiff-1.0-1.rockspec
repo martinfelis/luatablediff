@@ -1,8 +1,7 @@
 package = "ltdiff"
 version = "1.0-1"
 source = {
-	url = "git://github.com:martinfelis/luatablediff",
-	tag = "v1.0",
+	url = "git://github.com/martinfelis/luatablediff",
 }
 description = {
 	summary = "Diffing and patching for Lua tables",
