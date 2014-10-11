@@ -16,7 +16,7 @@ It provides two functions:
 This function creates the diff and returns it.
 
     ltdiff = require "ltdiff"
-      new_table = ltdiff.patch (old_table, diff)
+    new_table = ltdiff.patch (old_table, diff)
 
 Modifies old\_table by applying the diff. This function directly modifies old\_table!
 
