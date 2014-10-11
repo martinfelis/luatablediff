@@ -16,7 +16,7 @@ It provides two functions:
 This function creates the diff and returns it.
 
     ltdiff = require "ltdiff"
-		new_table = ltdiff.patch (old_table, diff)
+      new_table = ltdiff.patch (old_table, diff)
 
 Modifies old\_table by applying the diff. This function directly modifies old\_table!
 
@@ -26,22 +26,22 @@ Modifies old\_table by applying the diff. This function directly modifies old\_t
     utils = require 'utils'
 
     local this = {
-    	a = 1.1,
-    	b = 7.2,
-    	deeper = {
-    		s1 = 1.0,
-    		s2 = 2.0
-    	},
+       a = 1.1,
+       b = 7.2,
+       deeper = {
+          s1 = 1.0,
+          s2 = 2.0
+       },
     }
     
     local other = {
-    	a = 1.4,
-    	b = 7.2,
-    	deeper = {
-    		s1 = 1.0,
-    		s2 = 2.0,
-    		new = 9.1
-    	}
+       a = 1.4,
+       b = 7.2,
+       deeper = {
+          s1 = 1.0,
+          s2 = 2.0,
+          new = 9.1
+       }
     }
     
     local other_copy = utils.deepcopy (other)
@@ -55,9 +55,9 @@ Modifies old\_table by applying the diff. This function directly modifies old\_t
     print ("patched = " .. utils.serialize(patched))
     
     if utils.deepcompare (other_copy, patched) then
-    	print ("OK")
+       print ("OK")
     else
-    	print ("ERROR patched != other_copy")
+       print ("ERROR patched != other_copy")
     end
 
 The diff table in this case would look something like this:
