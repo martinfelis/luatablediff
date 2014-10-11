@@ -15,7 +15,7 @@ This could be used to reduce the amount of data needed to be transmitted
 in order to synchronize two tables. Beware that there is some overhead
 especially for nested tables with only few entries.
 	]],
-	homepage = "https://bitbucket.org/MartinFelis/luatablediff",
+	homepage = "https://github.com/martinfelis/luatablediff",
 	license = "MIT"
 }
 dependencies = {
